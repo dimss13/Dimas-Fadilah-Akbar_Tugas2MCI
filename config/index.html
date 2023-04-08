@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contoh HTML dan CSS</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Seminar Database BackEnd</h1>
+    <button id="btn-redirect">Acara Seminar</button>
+    <button id="btn-redirect2">Pengguna</button>
+    <button id="btn-redirect3">Pembayaran</button>
+    <button id="btn-redirect4">Pembicara</button>
+    <button id="btn-redirect5">Pendaftaran</button>
+    <button id="btn-redirect6">penyelenggara</button>
+    <button id="btn-redirect7">tempat duduk</button>
+
+    <script>
+        document.getElementById("btn-redirect").addEventListener("click", function () {
+            window.location.href = "/acaraseminar";
+        });
+        document.getElementById("btn-redirect2").addEventListener("click", function () {
+            window.location.href = "/pengguna";
+        });
+        document.getElementById("btn-redirect3").addEventListener("click", function () {
+            window.location.href = "/pembayaran";
+        });
+        document.getElementById("btn-redirect4").addEventListener("click", function () {
+            window.location.href = "/pembicara";
+        });
+        document.getElementById("btn-redirect5").addEventListener("click", function () {
+            window.location.href = "/pendaftaran";
+        });
+        document.getElementById("btn-redirect6").addEventListener("click", function () {
+            window.location.href = "/penyelenggara";
+        });
+        document.getElementById("btn-redirect7").addEventListener("click", function () {
+            window.location.href = "/tempatduduk";
+        });
+    </script>
+</body>
+
+</html>
