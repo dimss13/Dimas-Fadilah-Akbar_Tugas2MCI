@@ -24,3 +24,7 @@
 ## Postman
 
 <a href="https://documenter.getpostman.com/view/25228497/2s93XsXkmV">Postman documentation</a>
+
+
+## Deployment 
+<a href="https://seminar-backend-database-production.up.railway.app/">Seminar Database</a>
